@@ -1,0 +1,15 @@
+{
+  "name": "vitest-browser-interceptor-warning",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: Vitest 5 Browser Mode prints a Vite 'defines Vite-specific hooks (configureServer)' warning for vitest:mocks:interceptor on every run",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "5.0.0",
+    "playwright": "1.63.0",
+    "vite": "8.3.0",
+    "vitest": "5.0.0"
+  }
+}
